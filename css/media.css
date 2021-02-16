@@ -1,0 +1,243 @@
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+/*header start*/
+	.menu ul li a {
+    	padding: 0 0px !important;
+    	text-align: right;
+	}
+	.h-btn{
+		    float:right;
+	}
+	/*header end*/
+		/*banner start*/
+	.banner{
+	min-height: 280px;
+}
+.b-h1{
+	    padding-top: 15px;
+    font-size: 22px;
+}
+	.b-p{
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+	.b-btn{
+	padding: 5px 18px;
+}
+	/*banner end*/
+		/*study start*/
+	.s-h1{
+	margin-bottom: 10px;
+	font-size: 25px;
+}
+.s-p{
+	margin-bottom: 25px;
+    line-height: 20px;
+    word-spacing: 0px;
+}
+.dept img{
+	margin-top: 25px;
+}
+	/*study end*/
+		/*about start*/
+	.shape{
+		display: none;
+	}
+	.about-img{
+	    display: none;
+	}
+.a-h1{
+	font-size: 20px;
+    padding-top: 50px;}
+    .a-p{
+    	word-spacing: 0px;
+    }
+    .count {
+    margin-top: 20px;}
+    .count p {
+    font-size: 16px;
+    text-align: center;
+}
+    .count span {
+    font-size: 20px;}
+    
+	/*about end*/
+	/*around start*/
+	.around {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+	.around_h1 {
+    margin-bottom: 25px;
+    font-size: 22px;}
+    .card {
+    margin-bottom: 20px;
+}
+	/*around end*/
+	/*contact start*/
+	.contact1, .contact2, .contact3, .contact4{
+	margin-bottom: 20px;
+}
+.contact2 h2, .contact3 h2, .contact4 h2{
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+	/*contact end*/
+	/*footer start*/
+	footer{
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+	.footer-menu ul li:nth-child(even) a{
+	padding-right: 0 !important;
+	float: right;
+}
+.footer-menu ul li:nth-child(odd) a{
+	float: left;
+}
+	/*footer end*/
+ }
+
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+/*header start*/
+	.menu ul li a{
+    	padding: 0 0px !important;
+    	text-align: right;
+	}
+	.h-btn{
+		    float:right;
+	}
+	/*header end*/
+	/*banner start*/
+	.banner{
+	min-height: 400px;
+}
+.b-h1{
+	padding-top: 55px;
+	font-size: 30px;
+}
+	.b-p{
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+	/*banner end*/
+	/*study start*/
+	.s-h1{
+	margin-bottom: 10px;
+	font-size: 25px;
+}
+.s-p{
+	margin-bottom: 30px;
+    line-height: 20px;
+    word-spacing: 0px;
+}
+.dept img{
+	margin-top: 30px;
+}
+	/*study end*/
+	/*about start*/
+	.shape{
+		display: none;
+	}
+	.about-img{
+	    display: none;
+	}
+.a-h1{
+	font-size: 30px;
+    padding-top: 70px;}
+    .a-p{
+    	word-spacing: 0px;
+    }
+    .count {
+    margin-top: 30px;}
+    .count p {
+    font-size: 16px;}
+    .count span {
+    font-size: 25px;}
+    
+	/*about end*/
+	/*around start*/
+	.around {
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.around_h1 {
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+	/*around end*/
+	/*footer start*/
+	.footer-menu ul li a {
+    font-size: 10px;
+    padding: 0px 5px !important;
+}
+	/*footer end*/
+ }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+/*header start*/
+.menu ul li a{
+	padding: 0 0 !important;
+	text-align: right;
+}
+.h-btn{
+		float: right;
+	}
+/*header end*/
+/*banner start*/
+	.banner{
+	min-height: 500px;
+}
+.b-h1{
+	padding-top: 75px;
+	font-size: 30px;
+}
+	.b-p{
+	font-size: 16px;}
+	/*banner end*/
+	/*about start*/
+	.shape{
+		display: none;
+	}
+	.about-img{
+	    display: none;
+	}
+.a-h1{
+	font-size: 26px;
+    padding-top: 130px;}
+    .a-p{
+    	word-spacing: 0px;
+    }
+    .count {
+    margin-top: 50px;}
+    .count p {
+    font-size: 16px;}
+    .count span {
+    font-size: 30px;}
+    
+	/*about end*/
+		/*around start*/
+	.around{
+	padding-top: 110px;
+	padding-bottom: 70px; 
+}
+	/*around end*/
+ }
+
+
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+ }
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+
+ }
+
+ /*Extra Extra large devices (Extra large desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+
+ }
